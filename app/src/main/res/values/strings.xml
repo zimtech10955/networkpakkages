@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Network Pakkages</string>
+    <string name="jazzwaridoffers">Jazz+Warid Offers</string>
+
+    <string name="ufoneoffers">Ufone Offers</string>
+    <string name="telenoroffers">Telenor Offers</string>
+    <string name="zongoffers">Zong Offers</string>
+    <string name="ptcloffers">PTCL Offers</string>
+    <string name="allnetworkpakkages">All Network Pakkages</string>
+
+</resources>

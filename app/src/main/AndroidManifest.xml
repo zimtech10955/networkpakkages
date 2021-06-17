@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.networkpakkages">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Networkpakkages">
+        <activity android:name=".ptcl.ptclpakkagesactivity"></activity>
+        <activity android:name=".zonsection.zongpakkagesactivity" />
+        <activity android:name=".telenorsection.telenorpakkagesactivity" />
+        <activity android:name=".ufonesection.ufonepakkagesactivity" />
+        <activity android:name=".jazzsection.jazzhybridpakkageactivity" />
+        <activity
+            android:name=".ptcl.Ptclcatagory"
+            android:label="@string/ptcloffers" />
+        <activity
+            android:name=".zonsection.zongcatagory"
+            android:label="@string/zongoffers" />
+        <activity
+            android:name=".telenorsection.telenorcatagory"
+            android:label="@string/telenoroffers" />
+        <activity
+            android:name=".ufonesection.UfoneCatagory"
+            android:label="@string/ufoneoffers" />
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/allnetworkpakkages">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".jazzsection.jazzcatagory"
+            android:label="@string/jazzwaridoffers" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+    </application>
+
+</manifest>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ufonesection.UfoneCatagory">
+
+    <ImageButton
+        android:id="@+id/jazzbannertop"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_marginBottom="0dp"
+        android:background="#00000000"
+        android:scaleType="fitXY"
+        android:src="@drawable/ufonetopbaner" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/jazzbannertop"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/ufonehybrid"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/jazzroundbg"
+
+            android:scaleType="fitXY"
+            android:src="@drawable/ufonecallhybridoffers"
+            android:text="call hybrid" />
+
+        <ImageButton
+            android:id="@+id/ufonesms"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/jazzroundbg"
+            android:scaleType="fitXY"
+            android:src="@drawable/ufonesmsoffers"
+            android:text="sms offer" />
+
+        <ImageButton
+            android:id="@+id/ufnoeinternet"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/jazzroundbg"
+            android:scaleType="fitXY"
+
+            android:src="@drawable/ufoneinternetoffers"
+            android:text="inernet offer" />
+
+
+        <ImageButton
+            android:id="@+id/ufnoeotheroffer"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/ufoneinternetoffers"
+            android:scaleType="fitXY"
+            android:src="@drawable/ufoneotheroffers"
+            android:text="Otheroffers"
+
+            />
+
+    </LinearLayout>
+</RelativeLayout>
